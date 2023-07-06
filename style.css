@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: rgba(26, 24, 24, 0.932);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    height: 120px;
+
+}
+.logo-text{
+    font-size: 70px;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+}
+.list-item{
+    padding-left: 30px;
+    font-size: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+    color: rgba(0, 255, 255, 0.767);
+}
+.list-item:hover{
+    color: rgb(9, 218, 103);
+}
+.banner-section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.banner-text{
+    margin-left: 200px;
+}
+.gog{
+    font-size: 90px;
+    padding: 30px;
+    padding-left: 0px;
+    font-weight: bolder;
+}
+.text{
+    font-size: 20px;
+    font-weight:normal;
+    padding-bottom: 8px;
+}
+.btn{
+    padding: 19px;
+    background-color: rgba(255, 0, 0, 0.753);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: red;
+}
+.banner-image{
+
+}
+.img{
+    width: 990px;
+    margin-left: 250px;
+    margin-bottom: 110px;
+} 
+.akash{
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+    border: 5px solid black;
+    border-radius: 130px;
+    margin-top: 30px;
+    padding: 0px;
+    cursor: pointer;
+}
+.box{
+    margin: 30px;
+    background-color: rgb(27, 80, 78);
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 7px 7px 15px rgb(7, 6, 6);
+}
+.akash-text{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center ;
+    text-decoration: solid;
+    color: rgb(119, 177, 92);
+    cursor: pointer;
+}
+.ak{
+    font-size: 58px;
+    color: rgb(5, 235, 139);
+    cursor: pointer;
+}
+.about-section{
+    display: flex;
+    justify-content: center;
+    /* border: 5px solid rgb(240, 0, 0); */
+    height: 600px;
+    padding-top: 80px;
+}
+.member{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+    background-color: rgba(97, 59, 12, 0.116);
+    color: tomato;
+}.box:hover{
+    background-color: rgb(0, 0, 0);
+}
+.akash-text:hover{
+    color: white;
+}
+.ak:hover{
+    color: brown;
+}
